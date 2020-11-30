@@ -1,0 +1,20 @@
+@media screen and (max-width: 576px) {
+  main .social a img {
+    width: 25px;
+  }
+  .gallery_box_panel {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .gallery_box_panel .gallery_box {
+    width: calc(100% / 3);
+    height: auto;
+    display: inline-block;
+    float: none;
+  }
+  .gallery_box_panel .gallery_box img {
+    height: auto;
+  }
+}
+/*# sourceMappingURL=media_screen.css.map */
